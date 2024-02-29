@@ -1,0 +1,24 @@
+SSH Auth:
+eval `ssh-agent -s` / Crear el agente de autenticación
+ssh-add RUTA_A_LA_KEY / Agregar la llave privada al llavero, generalmente la ruta será "~/.ssh/nombre_de_la_llave"
+
+GIT Commands:
+git add . -A
+git branch NOMBRE_DE_LA_NUEVA_RAMA
+git checkout -b NOMBRE_DE_LA_NUEVA_RAMA
+git checkout NOMBRE_DE_LA_RAMA
+git commit --amend
+git commit -m "Commit message in infinitive form"
+git log
+git push
+git push -u origin HEAD
+git status
+---
+git merge NOMBRE_DE_LA_RAMA
+git rebase -i NOMBRE_DE_LA_RAMA
+git reset HEAD --hard
+git reset HEAD --soft
+git reset HEAD~1
+git revert HASH_DEL_COMMIT
+git stash -u
+git stash apply
