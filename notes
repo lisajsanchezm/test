@@ -1,6 +1,6 @@
 SSH Auth:
 eval `ssh-agent -s` / Crear el agente de autenticación
-ssh-add RUTA_A_LA_KEY / Agregar la llave privada al llavero, generalmente la ruta será "~/.ssh/nombre_de_la_llave"
+ssh-add RUTA_A_LA_KEY / Agregar la llave privada al llavero, generalmente la ruta será "~/.ssh/nombre_de_la_llave y debe ser la privada NO publica"
 
 GIT Commands:
 git add . -A
@@ -24,3 +24,5 @@ git stash -u
 git stash apply
 
 We need to practice more to learn faster
+
+
