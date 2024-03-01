@@ -22,3 +22,5 @@ git reset HEAD~1
 git revert HASH_DEL_COMMIT
 git stash -u
 git stash apply
+
+We need to practice more to learn faster
